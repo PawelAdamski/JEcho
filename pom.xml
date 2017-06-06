@@ -8,10 +8,13 @@
     <artifactId>JEcho</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
     <build>
-        <finalName>pawel</finalName>
+        <finalName>jecho</finalName>
         <plugins>
     <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
@@ -36,14 +39,14 @@
         </executions>
     </plugin>
     <plugin>
-        <groupId>adamski</groupId>
-        <artifactId>MyMojo2</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>com.github.paweladamski</groupId>
+        <artifactId>JInstall</artifactId>
+        <version>0.1</version>
         <executions>
             <execution>
                 <phase>install</phase>
                 <goals>
-                    <goal>sayhi</goal>
+                    <goal>install</goal>
                 </goals>
             </execution>
         </executions>
