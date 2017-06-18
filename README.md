@@ -4,7 +4,9 @@ JEcho
 # Installation
 If you haven't configured JInstall before please follow `JInstall` set up steps.
 
-Latter 
-```git clone xxxx
+After seting up `JInstall`: 
+```
+git clone git@github.com:PawelAdamski/JEcho.git
 cd JEcho
-mvn install```
+mvn install
+```
