@@ -1,5 +1,5 @@
 # JEcho
-JEcho
+JEcho demonstrates usage of `JInstall` maven plugin.
 
 # Installation
 If you haven't configured JInstall before please follow `JInstall` set up steps.
